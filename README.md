@@ -1,5 +1,7 @@
 # Flashforge Finder Cura utilities
 
+Based on https://github.com/ronoaldo/FlashforgeFinderIntegration
+
 This project contains several Cura slicer utilities that enhance the
 experience for Flashforge Finder users.
 
