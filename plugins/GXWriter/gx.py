@@ -144,6 +144,19 @@ class GX(object):
                             gx.print_temperature = t
                     args.append(a)
                 gx.gcode = gx.gcode.replace(line.encode(), ' '.join(args).encode())
+            if line.startswith('M140 S'):
+                # Fixes temperature if expressed in float (195.0 -> 195)
+                args = []
+                for a in line.split(' '):
+                    if a.startswith('S'):
+                        t = float(a.replace('S', ''))
+                        t = int(t)
+                        a = "S{}".format(t)
+                        if gx.bed_temperature <= 0.00:
+                            # Stores the first temperature to the xgcode header
+                            gx.bed_temperature = t
+                    args.append(a)
+                gx.gcode = gx.gcode.replace(line.encode(), ' '.join(args).encode())
         return gx
 
 # base64 --wrap=80 testdata/cura.bmp | xclip -sel clip
