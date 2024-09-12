@@ -62,7 +62,7 @@ class Installer(Extension):
                 "src": os.path.join(plugin_path, "printer", "quality", "finder"),
                 "dst": os.path.join(resources_path, "quality", "finder")
             },
-            "ffguider3.def.json": {
+            "ffguider3plus.def.json": {
                 "src": os.path.join(plugin_path, "printer", "defs"),
                 "dst": os.path.join(definitions_path)
             },
