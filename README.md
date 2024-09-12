@@ -1,4 +1,4 @@
-# Flashforge Finder Cura utilities
+# Flashforge Guider 3 Plus Support for Cura
 
 Based on https://github.com/ronoaldo/FlashforgeFinderIntegration
 
@@ -9,7 +9,7 @@ experience for Flashforge Finder users.
 
 ## From Marketplace
 
-Version 1.0.0 available, and version 1.0.1 still under review!
+N/a
 
 ## Binary releases
 
@@ -25,8 +25,8 @@ in the Add Printer dialog.
 You can checkout the repository and use the GNU Make tool to build the .curapackage
 files yourself:
 
-	git clone https://github.com/ronoaldo/FlashforgeFinderIntegration
-	cd FlashforgeFinderIntegration
+	git clone https://github.com/Nicknamee12/FlashforgeFinderIntegrationGuider3Plus
+	cd FlashforgeFinderIntegrationGuider3Plus
 	make
 
 After that, there will be two .curapackage files in the build directory.
