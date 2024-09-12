@@ -67,19 +67,19 @@ class Installer(Extension):
                 "dst": os.path.join(definitions_path)
             },
             "ffguider3_low.inst.cfg": {
-                "src": os.path.join(plugin_path, "printer", "quality", "finder"),
+                "src": os.path.join(plugin_path, "printer", "quality", "ffguider3plus"),
                 "dst": os.path.join(resources_path, "quality", "finder")
             },
             "ffguider3_standard.inst.cfg": {
-                "src": os.path.join(plugin_path, "printer", "quality", "finder"),
+                "src": os.path.join(plugin_path, "printer", "quality", "ffguider3plus"),
                 "dst": os.path.join(resources_path, "quality", "finder")
             },
             "ffguider3_high.inst.cfg": {
-                "src": os.path.join(plugin_path, "printer", "quality", "finder"),
+                "src": os.path.join(plugin_path, "printer", "quality", "ffguider3plus"),
                 "dst": os.path.join(resources_path, "quality", "finder")
             },
             "ffguider3_hyper.inst.cfg": {
-                "src": os.path.join(plugin_path, "printer", "quality", "finder"),
+                "src": os.path.join(plugin_path, "printer", "quality", "ffguider3plus"),
                 "dst": os.path.join(resources_path, "quality", "finder")
             },
             "flashforge_abs.xml.fdm_material": {
