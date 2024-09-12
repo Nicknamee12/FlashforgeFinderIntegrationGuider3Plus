@@ -66,19 +66,19 @@ class Installer(Extension):
                 "src": os.path.join(plugin_path, "printer", "defs"),
                 "dst": os.path.join(definitions_path)
             },
-            "ffguider3_low.inst.cfg": {
+            "ffguider3plus_low.inst.cfg": {
                 "src": os.path.join(plugin_path, "printer", "quality", "ffguider3plus"),
                 "dst": os.path.join(resources_path, "quality", "finder")
             },
-            "ffguider3_standard.inst.cfg": {
+            "ffguider3plus_standard.inst.cfg": {
                 "src": os.path.join(plugin_path, "printer", "quality", "ffguider3plus"),
                 "dst": os.path.join(resources_path, "quality", "finder")
             },
-            "ffguider3_high.inst.cfg": {
+            "ffguider3plus_high.inst.cfg": {
                 "src": os.path.join(plugin_path, "printer", "quality", "ffguider3plus"),
                 "dst": os.path.join(resources_path, "quality", "finder")
             },
-            "ffguider3_hyper.inst.cfg": {
+            "ffguider3plus_hyper.inst.cfg": {
                 "src": os.path.join(plugin_path, "printer", "quality", "ffguider3plus"),
                 "dst": os.path.join(resources_path, "quality", "finder")
             },
