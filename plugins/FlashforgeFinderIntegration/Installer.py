@@ -89,7 +89,7 @@ class Installer(Extension):
             "flashforge_pla.xml.fdm_material": {
                 "src": os.path.join(plugin_path, "printer", "materials"),
                 "dst": os.path.join(resources_path, "materials")
-            },
+            }
         }
 
         # Copy all missing files from src to dst
